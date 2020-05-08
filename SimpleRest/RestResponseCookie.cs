@@ -1,5 +1,5 @@
 using System;
-namespace RestSharp
+namespace SimpleRest
 {
 	public sealed class RestResponseCookie
 	{

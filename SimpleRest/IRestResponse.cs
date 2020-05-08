@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Net;
 
-namespace RestSharp
+namespace SimpleRest
 {
 	/// <summary>
 	/// Container for data sent back from API

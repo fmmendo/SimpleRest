@@ -19,7 +19,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
-//using RestSharp.Extension
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Storage.Streams;
 using Windows.Storage;
@@ -27,7 +26,7 @@ using System.Threading.Tasks;
 using Windows.Foundation;
 using Mendo.UWP.Network;
 
-namespace RestSharp
+namespace SimpleRest
 {
     /// <summary>
 	/// Container for data used to make requests

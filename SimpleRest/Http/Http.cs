@@ -25,7 +25,7 @@ using Windows.Web.Http;
 using System.Net;
 using Mendo.UWP.Extensions;
 
-namespace RestSharp
+namespace SimpleRest
 {
     /// <summary>
     /// HttpWebRequest wrapper

@@ -5,7 +5,7 @@ using RestSharp.Authenticators.OAuth.Extensions;
 using Windows.Security.Cryptography;
 using Windows.Security.Cryptography.Core;
 
-namespace RestSharp.Authenticators.OAuth
+namespace SimpleRest.Authenticators.OAuth
 {
     internal static class OAuthTools
     {

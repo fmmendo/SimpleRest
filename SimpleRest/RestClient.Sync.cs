@@ -9,7 +9,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using System.Collections;
 using Mendo.UWP.Network;
 
-namespace RestSharp
+namespace SimpleRest
 {
 	public partial class RestClient
 	{

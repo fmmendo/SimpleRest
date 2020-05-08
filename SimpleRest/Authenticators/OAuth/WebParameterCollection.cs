@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace RestSharp.Authenticators.OAuth
+namespace SimpleRest.Authenticators.OAuth
 {
     internal class WebParameterCollection : WebPairCollection
     {

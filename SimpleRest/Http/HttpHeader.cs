@@ -1,4 +1,4 @@
-﻿namespace RestSharp
+﻿namespace SimpleRest
 {
 	/// <summary>
 	/// Representation of an HTTP header

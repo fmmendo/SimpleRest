@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace RestSharp.Authenticators.OAuth.Extensions
+namespace SimpleRest.Authenticators.OAuth.Extensions
 {
     internal static class CollectionExtensions
     {

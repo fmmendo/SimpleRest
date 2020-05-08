@@ -2,7 +2,7 @@
 using System.IO;
 using Windows.Storage.Streams;
 
-namespace RestSharp
+namespace SimpleRest
 {
 	/// <summary>
 	/// Container for HTTP file

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RestSharp.Authenticators.OAuth.Extensions
+namespace SimpleRest.Authenticators.OAuth.Extensions
 {
     internal static class TimeExtensions
     {

@@ -4,7 +4,7 @@ using System.Text;
 using RestSharp.Authenticators.OAuth;
 using RestSharp.Authenticators.OAuth.Extensions;
 
-namespace RestSharp.Authenticators
+namespace SimpleRest.Authenticators
 {
     /// <seealso href="http://tools.ietf.org/html/rfc5849"/>
     public sealed class OAuth1Authenticator : IAuthenticator

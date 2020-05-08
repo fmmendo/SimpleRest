@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using RestSharp.Authenticators.OAuth.Extensions;
 
-namespace RestSharp.Authenticators.OAuth
+namespace SimpleRest.Authenticators.OAuth
 {
     /// <summary>
     /// A class to encapsulate OAuth authentication flow.

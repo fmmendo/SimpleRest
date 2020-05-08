@@ -21,7 +21,7 @@ using Windows.Foundation;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Mendo.UWP.Network;
 
-namespace RestSharp
+namespace SimpleRest
 {
 	public interface IRestRequest
 	{

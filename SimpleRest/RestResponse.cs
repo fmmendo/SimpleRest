@@ -19,7 +19,7 @@ using System;
 using System.Collections.Generic;
 using System.Net;
 
-namespace RestSharp
+namespace SimpleRest
 {
 	/// <summary>
 	/// Base class for common properties shared by RestResponse and RestResponse[[T]]

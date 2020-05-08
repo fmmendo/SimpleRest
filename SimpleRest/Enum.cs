@@ -14,7 +14,7 @@
 //   limitations under the License. 
 #endregion
 
-namespace RestSharp
+namespace SimpleRest
 {
 	///<summary>
 	/// Types of parameters that can be added to requests

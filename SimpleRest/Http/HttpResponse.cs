@@ -19,7 +19,7 @@ using System;
 using System.Collections.Generic;
 using System.Net;
 
-namespace RestSharp
+namespace SimpleRest
 {
 	/// <summary>
 	/// HTTP response data

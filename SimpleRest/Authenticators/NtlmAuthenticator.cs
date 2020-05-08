@@ -18,7 +18,7 @@ using System;
 using System.Net;
 
 
-namespace RestSharp
+namespace SimpleRest
 {
 	/// <summary>
 	/// Tries to Authenticate with the credentials of the currently logged in user, or impersonate a user

@@ -18,7 +18,7 @@ using System;
 using System.Linq;
 using System.Text;
 
-namespace RestSharp
+namespace SimpleRest
 {
 	public sealed class HttpBasicAuthenticator : IAuthenticator
 	{

@@ -28,7 +28,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using System.Linq;
 using Mendo.UWP.Network;
 
-namespace RestSharp
+namespace SimpleRest
 {
 	/// <summary>
 	/// HttpWebRequest wrapper (sync methods)

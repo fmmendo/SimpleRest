@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RestSharp
+namespace SimpleRest
 {
 	/// <summary>
 	/// Representation of an HTTP cookie

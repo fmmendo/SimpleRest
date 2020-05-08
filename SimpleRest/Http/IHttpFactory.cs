@@ -1,4 +1,4 @@
-﻿namespace RestSharp
+﻿namespace SimpleRest
 {
 	public interface IHttpFactory
 	{

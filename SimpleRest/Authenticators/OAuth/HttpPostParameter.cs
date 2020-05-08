@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace RestSharp.Authenticators.OAuth
+namespace SimpleRest.Authenticators.OAuth
 {
     internal class HttpPostParameter : WebParameter
     {

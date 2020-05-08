@@ -22,7 +22,7 @@ using System.Reflection;
 using System.Text;
 using Mendo.UWP.Extensions;
 
-namespace RestSharp
+namespace SimpleRest
 {
 	/// <summary>
 	/// Client to translate RestRequests into Http requests and process response result

@@ -20,7 +20,7 @@ using System.Collections.Generic;
 using Windows.Foundation;
 //using System.Security.Cryptography.X509Certificates;
 
-namespace RestSharp
+namespace SimpleRest
 {
 	/// <summary>
 	/// 

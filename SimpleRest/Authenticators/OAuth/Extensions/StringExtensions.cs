@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace RestSharp.Authenticators.OAuth.Extensions
+namespace SimpleRest.Authenticators.OAuth.Extensions
 {
     internal static class StringExtensions
     {

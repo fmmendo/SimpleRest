@@ -22,7 +22,7 @@ using System.Threading.Tasks;
 using Windows.Foundation;
 using Mendo.UWP.Network;
 
-namespace RestSharp
+namespace SimpleRest
 {
 	public interface IHttp
 	{

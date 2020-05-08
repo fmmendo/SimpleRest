@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace RestSharp
+namespace SimpleRest
 {
 	/// <summary>
 	/// Representation of an HTTP parameter (QueryString or Form value)

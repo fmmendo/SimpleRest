@@ -2,7 +2,7 @@
 using System.Diagnostics;
 #endif
 
-namespace RestSharp.Authenticators.OAuth
+namespace SimpleRest.Authenticators.OAuth
 {
 #if !Smartphone
     [DebuggerDisplay("{Name}:{Value}")]

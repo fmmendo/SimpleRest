@@ -3,7 +3,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
 using Windows.Foundation;
 
-namespace RestSharp
+namespace SimpleRest
 {
 	public static partial class RestClientExtensions
 	{
