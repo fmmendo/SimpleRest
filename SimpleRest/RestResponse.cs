@@ -17,13 +17,12 @@
 using Mendo.UWP.Extensions;
 using System;
 using System.Collections.Generic;
-using System.Net;
 
 namespace SimpleRest
 {
-	/// <summary>
-	/// Base class for common properties shared by RestResponse and RestResponse[[T]]
-	/// </summary>
+    /// <summary>
+    /// Base class for common properties shared by RestResponse and RestResponse[[T]]
+    /// </summary>
     public sealed class RestResponse : IRestResponse
 	{
 		private string _content;

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Text;
-using RestSharp.Authenticators.OAuth.Extensions;
+using SimpleRest.Authenticators.OAuth.Extensions;
 using Windows.Security.Cryptography;
 using Windows.Security.Cryptography.Core;
 

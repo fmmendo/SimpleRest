@@ -1,13 +1,12 @@
 using System;
 using System.Collections.Generic;
-using System.Net;
 
 namespace SimpleRest
 {
-	/// <summary>
-	/// HTTP response data
-	/// </summary>
-	public interface IHttpResponse
+    /// <summary>
+    /// HTTP response data
+    /// </summary>
+    public interface IHttpResponse
 	{
 		/// <summary>
 		/// MIME content type of response

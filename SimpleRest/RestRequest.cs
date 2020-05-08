@@ -16,14 +16,7 @@
 
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Net;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Storage.Streams;
-using Windows.Storage;
-using System.Threading.Tasks;
-using Windows.Foundation;
 using Mendo.UWP.Network;
 
 namespace SimpleRest

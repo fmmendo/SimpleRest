@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Linq;
 using System.Text;
-using RestSharp.Authenticators.OAuth;
-using RestSharp.Authenticators.OAuth.Extensions;
+using SimpleRest.Authenticators.OAuth;
+using SimpleRest.Authenticators.OAuth.Extensions;
 
 namespace SimpleRest.Authenticators
 {

@@ -17,14 +17,13 @@
 using Mendo.UWP.Extensions;
 using System;
 using System.Collections.Generic;
-using System.Net;
 
 namespace SimpleRest
 {
-	/// <summary>
-	/// HTTP response data
-	/// </summary>
-	public sealed class HttpResponse : IHttpResponse
+    /// <summary>
+    /// HTTP response data
+    /// </summary>
+    public sealed class HttpResponse : IHttpResponse
 	{
 		private string _content;
 

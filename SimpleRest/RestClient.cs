@@ -17,17 +17,15 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
-using System.Reflection;
 using System.Text;
 using Mendo.UWP.Extensions;
 
 namespace SimpleRest
 {
-	/// <summary>
-	/// Client to translate RestRequests into Http requests and process response result
-	/// </summary>
-	public sealed partial class RestClient : IRestClient
+    /// <summary>
+    /// Client to translate RestRequests into Http requests and process response result
+    /// </summary>
+    public sealed partial class RestClient : IRestClient
 	{
         Version version;
 

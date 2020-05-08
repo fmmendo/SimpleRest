@@ -1,12 +1,11 @@
 using System;
 using System.Collections.Generic;
-using System.Net;
 
 namespace SimpleRest
 {
-	/// <summary>
-	/// Container for data sent back from API
-	/// </summary>
+    /// <summary>
+    /// Container for data sent back from API
+    /// </summary>
     public interface IRestResponse
     {
         /// <summary>

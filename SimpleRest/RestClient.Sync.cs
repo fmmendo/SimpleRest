@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Text;
 using System.Threading.Tasks;
 using Windows.Foundation;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -11,7 +7,7 @@ using Mendo.UWP.Network;
 
 namespace SimpleRest
 {
-	public partial class RestClient
+    public partial class RestClient
 	{
 		/// <summary>
 		/// Executes the specified request and downloads the response data

@@ -16,14 +16,11 @@
 
 using System;
 using System.Collections.Generic;
-using System.Net;
-using Windows.Foundation;
-using System.Runtime.InteropServices.WindowsRuntime;
 using Mendo.UWP.Network;
 
 namespace SimpleRest
 {
-	public interface IRestRequest
+    public interface IRestRequest
 	{
 		/// <summary>
 		/// Container of all HTTP parameters to be passed with the request. 

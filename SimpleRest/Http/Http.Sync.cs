@@ -15,25 +15,18 @@
 #endregion
 
 using System;
-using System.Net;
-//using System.Net.Http;
 using Windows.Web.Http;
-
-//using RestSharp.Extensions;
 using System.Threading.Tasks;
-using System.Collections.Generic;
-//using System.Net.Http.Headers;
 using Windows.Foundation;
 using System.Runtime.InteropServices.WindowsRuntime;
-using System.Linq;
 using Mendo.UWP.Network;
 
 namespace SimpleRest
 {
-	/// <summary>
-	/// HttpWebRequest wrapper (sync methods)
-	/// </summary>
-	public partial class Http
+    /// <summary>
+    /// HttpWebRequest wrapper (sync methods)
+    /// </summary>
+    public partial class Http
 	{
 		/// <summary>
 		/// Execute a POST request

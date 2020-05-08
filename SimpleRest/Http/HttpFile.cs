@@ -1,13 +1,9 @@
-﻿using System;
-using System.IO;
-using Windows.Storage.Streams;
-
-namespace SimpleRest
+﻿namespace SimpleRest
 {
-	/// <summary>
-	/// Container for HTTP file
-	/// </summary>
-	public sealed class HttpFile
+    /// <summary>
+    /// Container for HTTP file
+    /// </summary>
+    public sealed class HttpFile
 	{
 
 		/// <summary>

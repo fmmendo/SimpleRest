@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace SimpleRest
+﻿namespace SimpleRest
 {
-	/// <summary>
-	/// Representation of an HTTP parameter (QueryString or Form value)
-	/// </summary>
-	public sealed class HttpParameter
+    /// <summary>
+    /// Representation of an HTTP parameter (QueryString or Form value)
+    /// </summary>
+    public sealed class HttpParameter
 	{
 		/// <summary>
 		/// Name of the parameter

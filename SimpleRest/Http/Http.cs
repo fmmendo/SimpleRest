@@ -16,13 +16,10 @@
 
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Text;
 //using RestSharp.Extensions;
 //using System.Net.Http;
 using Windows.Web.Http;
-using System.Net;
 using Mendo.UWP.Extensions;
 
 namespace SimpleRest

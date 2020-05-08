@@ -14,47 +14,30 @@
 //   limitations under the License. 
 #endregion
 
-using System;
-using System.Collections.Generic;
-using Windows.Foundation;
-
 namespace SimpleRest
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    public interface IRestClient
+	/// <summary>
+	/// Parameter container for REST requests
+	/// </summary>
+	public sealed class Parameter
 	{
 		/// <summary>
-		/// 
+		/// Name of the parameter
 		/// </summary>
-		string UserAgent { get; set; }
+		public string Name { get; set; }
 		/// <summary>
-		/// 
+		/// Value of the parameter
 		/// </summary>
-		int Timeout { get; set; }
+		public object Value { get; set; }
 		/// <summary>
-		/// 
+		/// Type of the parameter
 		/// </summary>
-		bool UseSynchronizationContext { get; set; }
-		/// <summary>
-		/// 
-		/// </summary>
-		IAuthenticator Authenticator { get; set; }
-		/// <summary>
-		/// 
-		/// </summary>
-		string BaseUrl { get; set; }
-		/// <summary>
-		/// 
-		/// </summary>
-		IList<Parameter> DefaultParameters { get; }
+		public ParameterType Type { get; set; }
 
-		IAsyncOperation<IRestResponse> ExecuteAsync(IRestRequest request);
-
-		Uri BuildUri(IRestRequest request);
-
-		IAsyncOperation<IRestResponse> ExecuteAsGetAsync(IRestRequest request, string httpMethod);
-		IAsyncOperation<IRestResponse> ExecuteAsPostAsync(IRestRequest request, string httpMethod);
+		/// <summary>
+		/// Return a human-readable representation of this parameter
+		/// </summary>
+		/// <returns>String</returns>
+		public sealed override string ToString() { return string.Format("{0}={1}", Name, Value); }
 	}
 }

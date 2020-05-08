@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using RestSharp.Authenticators.OAuth.Extensions;
+using SimpleRest.Authenticators.OAuth.Extensions;
 
 namespace SimpleRest.Authenticators.OAuth
 {

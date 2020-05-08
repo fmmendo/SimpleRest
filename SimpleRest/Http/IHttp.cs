@@ -16,15 +16,12 @@
 
 using System;
 using System.Collections.Generic;
-using System.Net;
-using System.IO;
-using System.Threading.Tasks;
 using Windows.Foundation;
 using Mendo.UWP.Network;
 
 namespace SimpleRest
 {
-	public interface IHttp
+    public interface IHttp
 	{
 		string UserAgent { get; set; }
 		int Timeout { get; set; }
