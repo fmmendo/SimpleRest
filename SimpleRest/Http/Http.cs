@@ -17,8 +17,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-//using RestSharp.Extensions;
-//using System.Net.Http;
 using Windows.Web.Http;
 using Mendo.UWP.Extensions;
 
